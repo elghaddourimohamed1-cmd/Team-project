@@ -3,3 +3,150 @@
     margin: 0;
     padding: 0;
 }
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.navigation .logo a {
+    color: #314584;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navigation .menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+.navigation .menu ul a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #314584;
+    text-decoration: none;
+}
+.navigation .menu ul a:hover{
+    color: red;
+}
+.navigation button {
+    background-color: #ffffff;
+    padding: 20px 55px;
+    color: red;
+    border: none;
+    box-shadow: 0px 10px 5px 0px rgba(28, 31, 33, 0.2);
+    cursor: pointer;
+}
+/* todo hero section  */
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    margin: 0px 0px;
+    /* gap: 100px; */
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.content-container img {
+    height: 500px;
+    margin-left: 20px;
+}
+.content-container h1 {
+    color: #314584;
+    font-size: 40px;
+    font-weight: 750;
+    margin-bottom: 20px;
+}
+.content-container p {
+    color: gray;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.content-container .btn {
+    margin-right: 30px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #ff3946;
+    text-decoration: none;
+}
+    
+a {
+    font-weight: 600; 
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns .second-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: gray;
+}
+/* todo cards sections */
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    color: #314584;
+}
+.heading h2 {
+        margin-bottom: 40px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-items: stretch;
+    margin: 20px 0px;
+}
+.second-section {
+    width: 100%;
+    height: 55vh;
+
+}
+.second-section .heading {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 130px;
+}
+.second-section .card {
+    margin-right: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 45px;
+    box-shadow: 0px 2px 9px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 9px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 9px 4px rgba(0,0,0,0.75);
+    color: #314584;
+    line-height: 28px;
+
+}
+.card img {
+    object-fit: cover;
+    display: block;
+    height: 60px;
+    color: #314584;
+}
