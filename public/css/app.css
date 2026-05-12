@@ -150,3 +150,104 @@ a {
     height: 60px;
     color: #314584;
 }
+
+/* todo form and footer */
+.form{
+    margin-right: 19%;
+}
+.prgh{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 40px;
+    color:rgb(241, 46, 46);
+}
+.title1{
+    color: rgb(49, 69, 132);
+     display: flex;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.email-subject{
+     display: flex;
+    margin-left: 20%;
+    margin-top: 20px;
+    gap: 10px;
+    width: 40%;
+}
+.plchldr{
+    background-color: rgb(226, 233, 238);
+   width: 600px;
+   border: none;
+   height: 40px;
+   display: flex;
+   align-items: center;
+}
+.mssg{
+     display: flex;
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 100%;
+}
+.txt-aera{
+     background-color: rgb(226, 233, 238);
+   width: 87%;
+   padding: 50px;
+   border: none;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   margin-bottom: 40px;
+   padding-top: 15px;
+   /* padding-left: 5px; */
+}
+.cheked{
+    background-color: rgb(255, 57, 70);
+    display: flex;
+    margin-left: 58%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 12%;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 40px;
+}
+.foot{
+    background-color: rgb(49, 69, 132);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 70px; */
+    /* font-size: large; */
+   
+
+}
+.main1-foot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   margin-bottom: 10px;
+   justify-content: space-between;
+   gap: 20px;
+   font-size: large;
+
+}
+.parag-foot{
+    display: flex;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+}
+.title-foot{
+    color:red;
+}
+
+    
